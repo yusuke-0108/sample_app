@@ -5,7 +5,7 @@
 		}
 	],
 	"settings": {
-		"html.autoClosingTags": false,
+		"html.autoClosingTags": true,
 		"auto-close-tag.SublimeText3Mode": true,
 		"auto-close-tag.activationOnLanguage": [
 			"html",
@@ -27,7 +27,25 @@
 			"cfml",
 			"HTML (EEx)",
 			"HTML (Eex)",
-			"plist"
+			"plist",
+			"html.erb"
 		]
-	}
+	},
+	"emmet.includeLanguages": {
+        "ruby": "html",
+        "erb": "html"
+    },
+	"files.associations": {
+ 	 "*.erb": "html"
+	},
+	"css.fileExtensions": [
+    "css",
+    "scss",
+    "less",
+    "erb"
+	],
+	"html-css-class-completion.excludeGlobPattern": [
+		"**/node_modules/**",
+		"**/bower_components/**"
+	]
 }
