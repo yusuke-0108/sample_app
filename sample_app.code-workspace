@@ -29,7 +29,11 @@
 			"HTML (Eex)",
 			"plist",
 			"html.erb"
-		]
+		],
+		"ruby.intellisense": "rubyLocate",
+		"ruby.useLanguageServer": true,
+		"solargraph.definitions": true,
+		"solargraph.diagnostics": true
 	},
 	"emmet.includeLanguages": {
         "ruby": "html",
