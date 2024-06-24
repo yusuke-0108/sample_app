@@ -19,6 +19,10 @@ module SessionsHelper
         end
     end
 
+    def current_user?(user)
+      user && user == current_user
+    end
+
     # 永続的セッションのためにユーザーをデータベースに記憶する
     def remember(user)
         user.remember
